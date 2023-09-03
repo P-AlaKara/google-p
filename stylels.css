@@ -1,0 +1,53 @@
+#logo {
+    text-align: center;
+    font-size: 100px;
+    font-family: sans-serif;
+    font-weight: 500px;
+    color: black;
+    letter-spacing: 0;
+}
+form {
+    text-align: center;
+}
+input[type="text"] {
+    width: 45%;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 0.5px solid lightgray;
+    background-image: url(searchicon.png);
+    background-position: 7px 5px;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+input[type="text"]:hover {
+    box-shadow: 1px 1px 2px 2px rgb(192,192,192);
+}
+input[type="submit"] {
+    padding: 5px;
+    text-align: center;
+    border: 0;
+}
+li {
+    display: inline;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    overflow: hidden;
+    background-color: lavender;
+}
+a {
+    color: black;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+}
+.nav_bar {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+.search-bar {
+
+}
