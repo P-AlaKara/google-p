@@ -1,7 +1,6 @@
 CS50-Project0-Google-Search
 A quick overview of the first assignment of CS50 Web Programming: a simple clone of Google Search, Google Advanced Search and Google Images purely made with HTML and CSS.
 
-Assignment specification
 Pages. Your website should have at least three pages: one for Google Search, one for Google Image Search, and one for Google Advanced Search.
 On the Google Search page, there should be links in the upper-right of the page to go to Image Search or Advanced Search. On each of the other two pages, there should be a link in the upper-right to go back to Google Search.
 Query Text. On the Google Search page, the user should be able to type in a query, click “Google Search”, and be taken to the Google search results for that page.
