@@ -3,6 +3,7 @@
 <head>
     <title>Google Search</title>
     <link rel="stylesheet" href="stylels.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div style="text-align: right;">
@@ -17,19 +18,22 @@
     <br>
     <div class="search-bar">
         <form action="https://google.com/search">
-            <div><input type="text" name="q"></div>
+            <div><input id="search-input" type="text" name="q"></div>
             <input type="submit" value="Google Search">
             <input type="submit" value="I'm Feeling Lucky" name="btnl">
         </form>
     </div>
-    <div class="nav_bar">
-        <ul>
-            <li><a href="https://about.google">About</a></li>
-            <li><a href="https://ads.google.com">Advertising</a></li>
-            <li><a href="https://smallbusiness.withgoogle.com">Business</a></li>
-            <li style="float:right;"><a href="https://policies.google.com">Privacy</a></li>
-            <li style="float:right;"><a href="https://policies.google.com/terms">Terms</a></li>
-        </ul>
+    <div class="flex-container">
+        <div style="float: left; padding: 15px; border-bottom: solid lightgray; border-width: 0.5px; font-size: large;">Kenya</div>
+        <div>
+            <ul>
+                <li><a href="https://about.google">About</a></li>
+                <li><a href="https://ads.google.com">Advertising</a></li>
+                <li><a href="https://smallbusiness.withgoogle.com">Business</a></li>
+                <li style="float:right;"><a href="https://policies.google.com">Privacy</a></li>
+                <li style="float:right;"><a href="https://policies.google.com/terms">Terms</a></li>
+            </ul>
+        </div>
     </div>
 </body>
 
