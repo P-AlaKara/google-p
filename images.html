@@ -3,6 +3,7 @@
 <head>
     <title>Google Images</title>
     <link rel="stylesheet" href="stylels.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div style="text-align: right;">
@@ -15,8 +16,12 @@
             <img src="imageslogo.png" alt="google logo" width="400" height="150">
         </div>
         <div class="search-bar">
-            <form action="https://google.com/search">
-                <div><input id="search-input" type="text" name="q"></div>
+            <form action="https://google.com/search" method="GET">
+                <div class="input-container">
+                    <i class="fa fa-search icon"></i>
+                    <input id="search-input" type="text" name="q">
+                </div>
+                <input type="hidden" name="tbm" value="isch">
             </form>
         </div>
         <div class="flex-container">
